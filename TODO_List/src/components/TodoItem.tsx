@@ -8,7 +8,7 @@ export default function TodoItem({ itemsProps }) {
   const itemClickHandler = () => {
     setListOfItems((prevItems: ItemInterface[]) =>
       prevItems.map((singleItem) => {
-        if (singleItem.content === item.content) {
+        if (singleItem._id === item._id) {
           const newItem = {
             _id: item._id,
             content: item.content,
