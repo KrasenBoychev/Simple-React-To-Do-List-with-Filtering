@@ -7,7 +7,7 @@
 ### Executing program
 
 ```
-npm cd TODO_List
+cd TODO_List
 ```
 
 ```
